@@ -13,3 +13,6 @@
 
 ##Be sure to execute 'sudo chmod +x [filename]'
 ##Then copy the resultant file to '/usr/bin/[filename]
+
+
+##The command 'freedom' sets up sshuttle whereas 'tyranny' kills the tunnel
