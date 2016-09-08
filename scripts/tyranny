@@ -1,0 +1,12 @@
+#!/bin/bash
+##Wrttten by Brian Winkler
+
+
+##Get process id
+PROCESS=$(pgrep sshuttle)
+
+##Store PID in kill command
+KILL_PROCESS=$(kill -9 $PROCESS)
+
+##Execute kill command
+echo $KILL_PROCESS

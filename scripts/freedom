@@ -1,0 +1,8 @@
+#!/bin/bash
+##Written by Brian Winkler
+##Liscensed under the GPL
+
+##Run sshuttle
+Freedom=$(sshuttle -D -r root@104.131.93.108 0/0)
+
+echo "$Freedom"
