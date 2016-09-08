@@ -1,8 +1,14 @@
 #!/bin/bash
 ##Written by Brian Winkler
 ##Liscensed under the GPL
+##Check out my blog at https://nuxview.blogspot.com/
+##COntact me at <brianewinkler@gmail.com>
+
 
 ##Run sshuttle
-Freedom=$(sshuttle -D -r root@104.131.93.108 0/0)
 
+##Replace [user@host] with your ssh login credentials
+Freedom=$(sshuttle -D -r [user@host] 0/0)
+
+##Execute command
 echo "$Freedom"
