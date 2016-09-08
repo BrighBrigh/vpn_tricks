@@ -8,9 +8,7 @@
 ##Run sshuttle
 
 ##Replace [user@host] with your ssh login credentials
-##The & forks the process to the background
-##Delete the & if you dont have ssh set-up to automatically login to your server
-Freedom=$(sshuttle -D -r [user@host] 0/0) &
+Freedom=$(sshuttle -D -r [user@host] 0/0)
 
 ##Execute command
 echo "$Freedom"
