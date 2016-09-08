@@ -9,6 +9,7 @@
 PROCESS=$(pgrep sshuttle)
 
 ##Store PID in kill command
+##Not the most elegent solution but it gets the work done
 KILL_PROCESS=$(kill -9 $PROCESS)
 
 ##Execute kill command
