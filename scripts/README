@@ -1,2 +1,15 @@
-##These scripts were written by Brian Winkler but feel free to use them as you see fit!
+##These scripts were written by Brian Winkler and are licensed under thr GPL. So share, modify, make your own!
 ##I can be contacted at <brianewinkler@gmail.com>
+##Check out my blog at https://nuxview.blogspot.com/
+
+
+
+##These scripts utilize sshuttle as a means to redirect your traffic through a SSH connection.
+##This is useful for if your network at work, school, cafe, etc. block the use of a VPN
+## Simply ssh into a VPS and from the VPS you can employ your VPN.
+##Great for downloading 'large' files while out and about.
+##They are written as simple as possible in order to make them easily configurable for anyone's needs.
+
+
+##Be sure to execute 'sudo chmod +x [filename]'
+##Then copy the resultant file to '/usr/bin/[filename]
